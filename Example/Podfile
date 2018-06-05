@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WPEncrypt_Example' do
+  pod 'WPEncrypt', :path => '../'
+
+  target 'WPEncrypt_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
