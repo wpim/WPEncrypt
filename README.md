@@ -1,29 +1,25 @@
 # WPEncrypt
 
-[![CI Status](https://img.shields.io/travis/gwpp/WPEncrypt.svg?style=flat)](https://travis-ci.org/gwpp/WPEncrypt)
-[![Version](https://img.shields.io/cocoapods/v/WPEncrypt.svg?style=flat)](https://cocoapods.org/pods/WPEncrypt)
-[![License](https://img.shields.io/cocoapods/l/WPEncrypt.svg?style=flat)](https://cocoapods.org/pods/WPEncrypt)
-[![Platform](https://img.shields.io/cocoapods/p/WPEncrypt.svg?style=flat)](https://cocoapods.org/pods/WPEncrypt)
+#### 介绍
+Objective-C加解密，支持RSA、XXTEA。
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-WPEncrypt is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
+#### 使用方式
+- 添加Podfile依赖
 ```ruby
+# 全量导入
 pod 'WPEncrypt'
+
+# 只导入RSA
+pod 'WPEncrypt/RSA'
+
+# 只导入AES
+pod 'WPEncrypt/AES'
 ```
 
-## Author
+- 具体使用见 `.h` 文件
 
-gwpp, ganwenpeng1993@163.com
+#### 致谢
+- RSA源自：https://github.com/ideawu/Objective-C-RSA
+- XXTEA源自：https://github.com/xxtea/xxtea-objc
 
-## License
-
-WPEncrypt is available under the MIT license. See the LICENSE file for more info.
+感谢两个库的作者。
