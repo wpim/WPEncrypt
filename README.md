@@ -12,8 +12,8 @@ pod 'WPEncrypt'
 # 只导入RSA
 pod 'WPEncrypt/RSA'
 
-# 只导入AES
-pod 'WPEncrypt/AES'
+# 只导入XXTEA
+pod 'WPEncrypt/XXTEA'
 ```
 
 - 具体使用见 `.h` 文件
